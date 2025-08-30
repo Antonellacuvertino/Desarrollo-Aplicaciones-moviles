@@ -1,4 +1,4 @@
-# Actividad de Colecciones – Kotlin
+# Actividad de  Kotlin
 
 **ESTUDIANTE:** Antonella Cuvertino
 
