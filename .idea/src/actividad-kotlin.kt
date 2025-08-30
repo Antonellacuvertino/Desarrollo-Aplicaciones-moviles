@@ -43,14 +43,14 @@ fun main() {
     }
     println("El día correspondiente es: $diaSemana")
     // PREGUNTAS DE REFLEXIÓN
-    println("\n--- Reflexión ---")
+    println("Reflexión")
     println("Diferencias y similitudes entre Kotlin y Java:")
     println("- Kotlin requiere menos código, por ejemplo para manejar nulos.")
     println("- En Kotlin usamos ?. y ?: en lugar de if/else para null checks.")
     println("- La estructura when es más expresiva y clara que switch en Java.")
     println("- Ambos lenguajes permiten operaciones aritméticas y control de flujo similares.")
 
-    println("\nAplicación práctica:")
+    println("Aplicación práctica:")
     println("La seguridad ante nulos (Null Safety) evita errores comunes en apps móviles, como crashes por valores inesperados.")
     println("La expresión when permite manejar múltiples casos de forma legible, ideal para flujos de menú o validaciones en apps.")
 }
