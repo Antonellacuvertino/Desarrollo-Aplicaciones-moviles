@@ -16,14 +16,13 @@ fun main() {
         i++
     }
 
-    println("ForEach → Todas las edades en una sola línea:")
+    println("ForEach : Todas las edades en una sola línea:")
     edades.forEach { print("$it, ")
     val estudiantes = listOf("Ana", "Pedro", "Ana", "Javiera", "Carlos", "Pedro")
 
-    // a) Convertir a Set
+    // Convertir a Set
     val estudiantesUnicos: Set<String> = estudiantes.toSet()
-    println("\nCantidad de nombres únicos: ${estudiantesUnicos.size}")
-    // b) Crear un Map (Estudiante → Asignatura favorita)
+    println("Cantidad de nombres únicos: ${estudiantesUnicos.size}")
     val asignaturas: Map<String, String> = mapOf(
         "Anto" to "Aplicaciones Móviles",
         "Meriem" to "Base de Datos",
@@ -32,25 +31,25 @@ fun main() {
     )
     println("Asignatura favorita de Anto: ${asignaturas["Anto"]}")
     println("Asignatura favorita de Matias (no existe): ${asignaturas["Matias"]}")
-    println("\nOperaciones con la lista de edades:")
+    println("Operaciones con la lista de edades:")
 
-    // 1) .find → primera edad mayor a 18
+    // 1) .find : primera edad mayor a 1
     val primeraMayor18 = edades.find { it > 18 }
     println("Primera edad mayor a 18: $primeraMayor18")
 
-    // 2) .any → ¿hay menores de 18?
+    // 2) .any : ¿hay menores de 18?
     val hayMenores = edades.any { it < 18 }
     println("¿Hay menores de 18?: $hayMenores")
 
-    // 3) .all → ¿todos son adultos?
+    // 3) .all : ¿todos son adultos?
     val todosAdultos = edades.all { it >= 18 }
     println("¿Todos son adultos?: $todosAdultos")
 
-    // 4) .map → edades multiplicadas por 2
+    // 4.map : edades multiplicadas por 2
     val edadesDobles = edades.map { it * 2 }
     println("Edades multiplicadas por 2: $edadesDobles")
 
-    //.filter → solo mayores de edad
+    //5. .filter :solo mayores de edad
     val mayoresDeEdad = edades.filter { it >= 18 }
     println("Solo mayores de edad: $mayoresDeEdad")
 
