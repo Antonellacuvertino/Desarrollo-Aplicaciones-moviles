@@ -1,4 +1,4 @@
-# Actividad de  Kotlin
+# Actividades  Kotlin
 
 **ESTUDIANTE:** Antonella Cuvertino
 
